@@ -1,2 +1,2 @@
 # PID-Autotuner
-PID Controller 
+System independent Autotuner PID Controller based on Arduino Mega and Raspberry Pi.
