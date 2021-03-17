@@ -1,6 +1,4 @@
 import serial
-import numpy as np
-import csv
 import pandas
 import time
 import struct
