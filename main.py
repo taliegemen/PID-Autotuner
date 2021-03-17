@@ -9,7 +9,7 @@ baud_rate = 115200
 arduino = serial.Serial('/dev/ttyACM0', 115200)
 time.sleep(2)
 Kcstart = 1
-arduino.write(struct.pack('>B',Kcstart))
+arduino.write(struct.pack('>B', Kcstart))
 somecount = 0
 
 output_file = open("/home/taliegemen/Desktop/output.txt", "w+")
@@ -78,4 +78,4 @@ time.sleep(2)
 Kc = int(round(Kc))
 ti = int(round(ti))
 td = int(round(td))
-arduino.write(struct.pack('>BBB',Kc,ti,td))
+arduino.write(struct.pack('>BBB', Kc, ti, td))
