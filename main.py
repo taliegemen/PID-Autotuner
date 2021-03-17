@@ -4,21 +4,21 @@ import time
 import struct
 import math
 
-serialport = '/dev/ttyACM0';
-baud_rate = 115200;
+serialport = '/dev/ttyACM0'
+baud_rate = 115200
 arduino = serial.Serial('/dev/ttyACM0', 115200)
 time.sleep(2)
 Kcstart = 1
 arduino.write(struct.pack('>B',Kcstart))
 somecount = 0
 
-output_file = open("/home/taliegemen/Desktop/output.txt", "w+");
+output_file = open("/home/taliegemen/Desktop/output.txt", "w+")
 ser = serial.Serial(serialport, baud_rate)
 while somecount < 900:
-    line = ser.readline();
+    line = ser.readline()
     line = line.decode("utf-8") #ser.readline returns a binary, convert to string
-    print(line);
-    output_file.write(line);
+    print(line)
+    output_file.write(line)
     somecount += 1
 
 colnames = ["noww", "poss"]
