@@ -16,14 +16,14 @@ output_file = open("/home/taliegemen/Desktop/output.txt", "w+")
 ser = serial.Serial(serialport, baud_rate)
 while somecount < 900:
     line = ser.readline()
-    line = line.decode("utf-8") 
+    line = line.decode("utf-8")
     # ser.readline returns a binary, convert to string
     print(line)
     output_file.write(line)
     somecount += 1
 
 colnames = ["noww", "poss"]
-data = pandas.read_csv("/home/taliegemen/Desktop/output.txt", names = colnames)
+data = pandas.read_csv("/home/taliegemen/Desktop/output.txt", names=colnames)
 noww = data.noww.tolist()
 poss = data.poss.tolist()
 
@@ -55,7 +55,7 @@ while True:
             timemax = noww[(k+1)]
 
     for z in range(700):
-        if (pointtau >= poss[z]):
+        if pointtau >= poss[z]:
             atta = noww[z]
             alta = poss[z]
 
