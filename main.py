@@ -12,7 +12,7 @@ Kcstart = 1
 arduino.write(struct.pack('>B', Kcstart))
 somecount = 0
 
-output_file = open("/home/taliegemen/Desktop/output.txt", "w+")
+output_file = with open("/home/taliegemen/Desktop/output.txt", "w+")
 ser = serial.Serial(serialport, baud_rate)
 while somecount < 900:
     line = ser.readline()
