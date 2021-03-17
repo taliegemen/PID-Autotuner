@@ -16,7 +16,8 @@ output_file = open("/home/taliegemen/Desktop/output.txt", "w+")
 ser = serial.Serial(serialport, baud_rate)
 while somecount < 900:
     line = ser.readline()
-    line = line.decode("utf-8") #ser.readline returns a binary, convert to string
+    line = line.decode("utf-8") 
+    # ser.readline returns a binary, convert to string
     print(line)
     output_file.write(line)
     somecount += 1
