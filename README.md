@@ -11,15 +11,14 @@ booktitle={2018 6th International Conference on Control Engineering Information 
 title={Analyze and Comparison of Different PID Tuning Methods on a Brushless DC Motor Using Atmega328 Based Microcontroller Unit},
 year={2018}
 }
-
 @araştırma makalesi{ejosat897727,
-	journal = {Avrupa Bilim ve Teknoloji Dergisi},
-	eissn = {2148-2683},
-	year = {2021},
-	volume = {24},
-	pages = {234 - 239},
-	doi = {10.31590/ejosat.897727},
-	title = {Design and Realization of Online Auto Tuning PID Controller Based on Cohen-Coon Method},
-	author = {Taşören,  Ali Egemen}
+journal = {Avrupa Bilim ve Teknoloji Dergisi},
+eissn = {2148-2683},
+year = {2021},
+volume = {24},
+pages = {234 - 239},
+doi = {10.31590/ejosat.897727},
+title = {Design and Realization of Online Auto Tuning PID Controller Based on Cohen-Coon Method},
+author = {Taşören,  Ali Egemen}
 }
 ```
