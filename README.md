@@ -5,12 +5,6 @@ To use, build the Arduino code on Arduino Mega. Then simply run main.py on Raspb
 If you use this code, please cite with:
 
 ```
-@INPROCEEDINGS{8751768,
-author={A. E. {Taşören} and H. {Örenbaş} and S. {Şahin}},
-booktitle={2018 6th International Conference on Control Engineering Information Technology (CEIT)},
-title={Analyze and Comparison of Different PID Tuning Methods on a Brushless DC Motor Using Atmega328 Based Microcontroller Unit},
-year={2018}
-}
 @araştırma makalesi{ejosat897727,
 journal = {Avrupa Bilim ve Teknoloji Dergisi},
 eissn = {2148-2683},
